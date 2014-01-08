@@ -362,7 +362,11 @@ textarea { height:200px; }
   -webkit-animation-name: greenPulse;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: greenPulse;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
 }
+
 
 label.error { display:none !important; }
 
@@ -414,6 +418,11 @@ ul.personal-info.contact-form .title:after { top:auto; bottom:-0.5em; left:0; ri
   from { background-color: #e17c2e; -webkit-box-shadow: 0 0 9px #333; }
   50% { background-color: #e19d2e; -webkit-box-shadow: 0 0 18px #91bd09; }
   to { background-color: #e17c2e; -webkit-box-shadow: 0 0 9px #333; }
+}
+@-moz-keyframes greenPulse {
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
 }
 @keyframes greenPulse {
   from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
